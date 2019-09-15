@@ -5,7 +5,7 @@
 # Payara Variable Initilistation
 # The PAYARA_HOME variable points to your Payara install location. The below
 # path would be appropriate for Payara versions 4.1.x
-PAYARA_HOME="/path/to/directory/containing/payara/from/root/Payara/appserver/distributions/payara/target/stage/payara41"
+PAYARA_HOME="$HOME/payara5"
 # The ASADMIN variable points to the location of the asadmin script used
 # to run the Payara asadmin commands
 ASADMIN=${PAYARA_HOME}/bin/asadmin

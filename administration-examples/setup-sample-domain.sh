@@ -8,7 +8,7 @@
 DOMAIN_NAME="sample-domain"
 # The PAYARA_HOME variable points to your Payara install location. The below
 # path would be appropriate for Payara versions 4.1.x
-PAYARA_HOME="/path/to/Payara/appserver/distributions/payara/target/stage/payara41"
+PAYARA_HOME="$HOME/payara5"
 # The ASADMIN variable points to the location of the asadmin script used
 # to run the Payara asadmin commands
 ASADMIN=${PAYARA_HOME}/bin/asadmin
@@ -20,7 +20,7 @@ ADMIN_PORT=$(($PORT_BASE + 48))
 # The DEPLOYMENTS_LOCATION variable indicates the location of the application WAR
 # file to be deployed. The path needs to point to the Payara_Examples folder
 # in this instance.
-DEPLOYMENTS_LOCATION="/path/to/Payara-Examples/Administration-Samples"
+DEPLOYMENTS_LOCATION="$HOME/git/Payara-Examples/administration-examples"
 
 # Uses the initialised variables to create the new domain using the asadmin
 # command create-domain. The command creates a Payara Server domain, a namespace
